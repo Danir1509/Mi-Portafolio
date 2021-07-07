@@ -1,0 +1,102 @@
+/*---------------- Diseño del formulario -----------------------*/
+
+.registrer{
+	font-family: 'Abril Fatface', cursive;
+	width: 400px;
+	background: rgb(144, 12, 63);
+	padding: 20Px;
+	margin: auto;
+	margin-top: 150px;
+	border-radius: 4px;
+	color: rgb(218, 247, 166);
+	line-height:20px;
+	box-shadow: 7px 20px 37px #000;
+	box-sizing: border-box;
+}
+
+/*---------------- Diseño de las letras del formulario -----------------------*/
+
+.registrer label{
+	height: 40px;
+	text-align:center;
+	font-size: 15px;
+}
+
+/*---------------- Diseño del boton -----------------------*/
+.registrer .enviar:hover{
+	background-color: rgb(202, 111, 30);
+	
+}
+
+.registrer .ingre{
+	width: 50%;
+	padding: 5px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	border: 1px solid #641E16;
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: rgb(100, 30, 22);
+	color: white;
+	margin: 16px 0;
+	font-size: 15px;
+}
+
+.registrer .enviar{
+	width: 50%;
+	padding: 5px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	border: 1px solid #641E16;
+	font-family: 'Merriweather Sans', sans-serif;
+	background-color: rgb(100, 30, 22);
+	color: white;
+	margin: 16px 0;
+	font-size: 15px;
+}
+
+/*---------------- Diseño de los campos -----------------------*/
+.registrer .txt:hover{
+	background-color: rgb(250, 215, 160);	
+}
+
+/*---------------- Diseño de los input de texto -----------------------*/
+.registrer .txt{
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+	border-radius: 6px;
+	margin-bottom: 10px;
+	border: 1px solid #641E16;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+
+.registrer .ve:hover{
+	background: white;
+}
+
+/*-------------------------------Requerimientos ---------------------------*/
+input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightblue);
+}
+input:invalid {
+  border: 2px dashed red;
+}
+
+input:valid {
+  border: 2px solid black;
+}
+
+
+/*---------------- Responsive -----------------------*/
+@media (max-width:600px){
+	.registrer{
+		width: 70%;
+	}
+}
+
+#fondo{
+	width:100%;
+	
+}

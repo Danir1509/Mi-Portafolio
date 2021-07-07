@@ -1,0 +1,52 @@
+/*---------------------------- inicio del diseño de la barra -------------------*/
+/*------------------- diseño de la barra -----------------------*/
+.barra{
+	font-family: 'Abril Fatface', cursive;
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+/*------------------- diseño del menu desplegable -----------------------*/
+ul li .dropdown-menu{
+	background: rgb(63,94,251);
+	background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+/*------------------- diseño del boton desplegable -----------------------*/
+div .botonBarra{
+	margin-left: 260%;
+}
+/* --------------- Fin del diseño de la barra --------------------------------*/
+
+
+/*-------------------- responsive de la barra (boton) -------------------------*/  
+@media (max-width:1400px){
+	div .botonBarra{
+		margin-left: 250%;
+	}
+
+}
+@media (max-width:1300px){
+	div .botonBarra{
+		margin-left: 193%;
+	}
+
+}
+@media (max-width:1200px){
+	div .botonBarra{
+		margin-left: 155%;
+	}
+
+}
+@media (max-width:1190px){
+	div .botonBarra{
+		margin-left: 186%;
+	}
+
+}
+@media (max-width:1181px){
+	div .botonBarra{
+		margin-left: 0;
+	}
+}
+/*------------------ Fin de responsive de la barra(boton) -----------------------*/

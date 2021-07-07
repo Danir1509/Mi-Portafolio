@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding:0;
+}
+.negro #dentro h5 a{
+	text-decoration: none;
+	color: white;
+}
+
+.negro #dentro h5 a:hover{
+	color:#312D2C;
+}
+
+.negro {
+	background-color:#334A6B;
+}
+
+.negro h1{
+	text-align:center;
+}
+
+.aqua #dentro h4{
+	text-align: top;
+}
+
+.aqua {
+	background-color: #334A6B;
+	width: 350px;
+	
+}
+
+.container .col{
+	text-align: left;
+}
+
+.container .col .personales{
+	border: 1px solid black;
+}
+
+center a{
+	text-decoration: none;
+	color: black;
+}
+
+center a:hover{
+	color:red;
+}

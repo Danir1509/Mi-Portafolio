@@ -1,0 +1,362 @@
+/*------------------- diseño del cuerpo -----------------------*/
+body{
+	margin:0;
+	padding:0;
+	/*tipo de letra*/
+	font-family: 'Abril Fatface', cursive;
+}
+
+
+/*------------------- inicio Diseño del banner ---------------------------*/
+/*------------ diseño para el video banner---------------*/
+#banner{
+	position: relative;
+}
+
+/*------------ para el video---------------*/
+#banner video{
+	width: 100%;
+	height: 50%;
+	
+}
+
+/*------------ dentro de letras del video---------------*/
+#banner .contenedor{
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	transform: translateX(-50%) translateY(-50%);
+	background: -webkit-linear-gradient(blue,black);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    color: tomato;
+	font-family: 'Abril Fatface', cursive;
+}
+
+/*------------ tamaño de letra en el video---------------*/
+#banner h2{
+	
+	font-size: 40px;
+}
+
+/*------------ tamaño de letra en el video---------------*/
+#banner p{
+	font-size: 30px;
+} 
+
+/*------------ diseño para el link---------------*/
+#banner  #curri{
+	width: 100px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 3px;
+	margin-top: 10 px;
+	border: 3px solid white;
+}
+
+#banner  #verpag{
+	width: 100px;
+	left: 25px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 3px;
+	margin-top: 10 px;
+	border: 3px solid white;
+	
+}
+
+#banner a:hover{
+	background: rgb(143, 134, 133,0.3);
+}
+
+/*------------ diseño para el tamaño del contenedor---------------*/
+setion{
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+/*--------------------------- fin del diseño del baner video --------------------------*/
+
+/*------------------Inicio de responsive del banner--------------------------*/
+@media (max-width:600px){
+	
+	/*------------ para el video---------------*/
+	#banner video{
+		width: 100%;
+		height: 50%;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner h2{
+		size:10px;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner p{
+		font-size: 15px;
+	} 
+	
+}
+
+@media (max-width:497px){
+	
+	/*------------ para el video---------------*/
+	#banner video{
+		width: 100%;
+		height: 50%;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner h2{
+		size:5px;
+		font-size: 30px;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner p{
+		font-size: 15px;
+	} 
+	
+}
+
+@media (max-width:467px){
+	
+	/*------------ para el video---------------*/
+	#banner video{
+		width: 100%;
+		height: 50%;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner h2{
+		size:1px;
+		font-size: 25px;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner p{
+		font-size: 15px;
+	} 
+	#banner a{
+		font-size: 12px;
+	}
+
+}
+
+@media (max-width:413px){
+	
+	/*------------ para el video---------------*/
+	#banner video{
+		width: 100%;
+		height: 50%;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner h2{
+		size:1px;
+		font-size: 20px;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner p{
+		font-size: 15px;
+	} 
+	
+	
+	#banner a{
+		font-size: 13px;
+	}
+	
+}
+
+@media (max-width:393px){
+	
+	/*------------ para el video---------------*/
+	#banner video{
+		width: 100%;
+		height: 50%;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner h2{
+		top:15px;
+		size:1px;
+		font-size: 20px;
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner p{
+		font-size: 13px;
+	} 
+	
+	#banner a{
+		font-size: 10px;
+	}
+
+}
+
+@media (max-width:357px){
+	
+	/*------------ para el video---------------*/
+	#banner video{
+		width: 100%;
+		height: 50%;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner h2{
+		top:25px;
+		size:1px;
+		font-size: 12px;
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner p{
+		font-size: 10px;
+	} 
+	
+	#banner a{
+		font-size: 11px;
+	} 
+}
+
+@media (max-width:300px){
+	
+	
+	/*------------ para el video---------------*/
+	#banner video{
+		width: 100%;
+		height: 50%;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner h2{
+		top:25px;
+		size:1px;
+		font-size: 10px;
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner p{
+		font-size: 8px;
+	} 
+	
+	#banner a{
+		font-size: 10px;
+	} 
+}
+
+@media (max-width:277px){
+	
+	/*------------ para el video---------------*/
+	#banner video{
+		width: 100%;
+		height: 50%;
+		
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner h2{
+		top:25px;
+		size:1px;
+		font-size: 10px;
+	}
+
+	/*------------ tamaño de letra en el video---------------*/
+	#banner p{
+		font-size: 8px;
+	} 
+	
+	#banner a{
+		font-size: 6px;
+	} 
+}
+/*------------------fin de responsive del banner--------------------------*/
+
+/*--------------------Inicio de cuerpo--------------------------*/
+
+
+
+/*-------------------------- estilo para las fotos del blog(cuerpo) --------------------------*/
+
+#blog .contenedor{
+	text-align: center;
+	font-family: 'Itim', cursive;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+/*-------------------------- espacios entre contenedor --------------------------*/
+
+#blog article{
+	margin: 7px;
+
+}
+
+/*-------------------------- estilo para las letras --------------------------*/
+
+#blog h3, h4{
+	text-align: center;
+}
+
+/*-------------------------- tamaño para las imagenes --------------------------*/
+
+#blog img{
+	width: 450px;
+	height: 350px;
+}
+
+/*------------------Fin del diseño del cuerpo-------------------------*/
+
+/*-------------------------- Link de las imagenes --------------------------*/
+
+#blog  .linkpag{
+	text-decoration: none;
+	color: black;
+}
+
+/*------------------Fin del diseño de las imagenes-------------------------*/
+
+/*--------------------Inicio responsive de imagenes --------------------------*/
+@media (max-width:479px){
+	
+	#blog img{
+		width: 350px;
+		height: 250px;
+	}
+}
+
+@media (max-width:480px){
+	
+	#blog img{
+		width: 250px;
+		height: 150px;
+	}
+}
+
+@media (max-width:288px){
+	
+	#blog img{
+		width: 190px;
+		height: 150px;
+	}
+}
+/*------------------Fin del diseño responsive de imagenes-------------------------*/
+
+
+
+

@@ -1,0 +1,28 @@
+/*--------------------Inicio de pie de pagina --------------------------*/
+/*-------------------------- pie de pagina --------------------------*/
+
+footer{
+	background: rgb(74,30,105);
+	background: linear-gradient(90deg, rgba(74,30,105,1) 0%, rgba(185,6,6,1) 42%, rgba(207,123,6,1) 100%);
+	text-align: center;
+}
+
+/*------------------------- diseño de los link boyones ------------------------*/
+footer a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+footer a:hover{
+	color: white;
+}
+
+
+.redes{ 
+	width:100%;
+	justify-content: center;
+	text-align: center;
+}
+
+/*------------------Fin del diseño del pie de pagina-------------------------*/

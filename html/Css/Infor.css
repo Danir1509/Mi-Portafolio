@@ -1,0 +1,34 @@
+/*------------------ diseño del cuerpo de la pagina informacion ------------------------------*/
+#cuerp{
+	text-align: center;
+	font-family: 'Itim', cursive;
+
+}
+
+#cuerp p{
+	text-align: center;
+
+}
+
+#cuerp h3{
+	text-align: left;
+
+}
+
+#cuerp h4{
+	text-align: left;
+
+}
+
+#cuerp a{
+	text-decoration: none;
+
+}
+
+#cuerp h5{
+	text-align: justify;
+
+}
+
+
+/*-------------------------- Fin del diseño de pagina cuerpo  --------------------------*/
